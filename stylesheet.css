@@ -4,19 +4,21 @@ html, body {
     background-color: black;
 }
 
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-video {
+
+#container {
+    margin: auto;
+    width: 886px;
+    padding: 10px;
+    margin: 0;
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
